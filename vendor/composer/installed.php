@@ -1,23 +1,24 @@
-<?php return array(
-    'root' => array(
-        'name' => 'kendax/tic_tac_toe_php_internal',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
-        'type' => 'project',
-        'install_path' => __DIR__ . '/../../',
-        'aliases' => array(),
-        'dev' => true,
+<?php return array (
+  'root' => 
+  array (
+    'pretty_version' => 'dev-main',
+    'version' => 'dev-main',
+    'aliases' => 
+    array (
     ),
-    'versions' => array(
-        'kendax/tic_tac_toe_php_internal' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
-            'type' => 'project',
-            'install_path' => __DIR__ . '/../../',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
+    'reference' => '5bc0cdb073b0d70202ea779ec4061845d81bd6eb',
+    'name' => 'kendax/tic_tac_toe_php_internal',
+  ),
+  'versions' => 
+  array (
+    'kendax/tic_tac_toe_php_internal' => 
+    array (
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '5bc0cdb073b0d70202ea779ec4061845d81bd6eb',
     ),
+  ),
 );
