@@ -52,6 +52,7 @@ require_once "header.php";
 
     //Display the first player's turn
     if (!isset($_POST["playButton"])) {
+        $_SESSION["currentplayer1"] = "X";
         $_SESSION["gamestatus"] = "It's ".$_SESSION["currentplayer1"]."'s turn";
     }
 
